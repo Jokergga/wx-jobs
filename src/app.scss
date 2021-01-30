@@ -1,0 +1,16 @@
+.iconfont {
+  font-size: 40px !important;
+}
+
+.clear_fix::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clear_fix {
+  zoom: 1;
+}
